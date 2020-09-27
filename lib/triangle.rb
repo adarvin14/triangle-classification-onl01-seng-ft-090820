@@ -19,6 +19,8 @@ class Triangle
     elsif
       side_a == side_b = side_c
       :equilateral
+    else
+      :scalene
     end
   end
   
