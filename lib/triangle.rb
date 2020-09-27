@@ -8,6 +8,9 @@ class Triangle
     @side_c = side_c
   end
   
+    :equilateral = :isosceles
+    :isosceles != :equilateral
+  
   def kind
     if side_a <= 0 || side_b <= 0 || side_c <= 0
       raise TriangleError
