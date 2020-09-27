@@ -16,6 +16,7 @@ class Triangle
     elsif
       side_a == 0 && side_b == 0 & side_c = 0
       raise TriangleError
+    elsif
       side_a = side_b && side_b = side_c
       :equilateral
     elsif
